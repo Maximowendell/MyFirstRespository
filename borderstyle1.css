@@ -1,0 +1,73 @@
+/* Reset default margins/padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+}
+
+/* Header */
+.header {
+  background-color: #4169E1;  /* royal blue */
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Sidebar */
+.sidebar {
+  background-color: #1E90FF;  /* dodger blue */
+  width: 200px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 100px;
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  padding: 12px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.sidebar a:hover {
+  background-color: #4682B4;  /* steel blue */
+}
+
+/* Content */
+.content {
+  margin-left: 220px; /* push right to avoid overlap */
+  padding: 20px;
+}
+
+/* Border box around styles */
+.border-box {
+  border: 2px solid red;
+  border-radius: 10px;
+  padding: 15px;
+  background: #fff;
+}
+
+/* Border examples */
+p {
+  margin: 10px 0;
+  padding: 5px;
+}
+
+.dotted { border: 1px dotted black; }
+.dashed { border: 1px dashed black; }
+.solid { border: 1px solid black; }
+.double { border: 3px double black; }
+.groove { border: 4px groove black; }
+.ridge { border: 4px ridge black; }
+.inset { border: 4px inset black; }
+.outset { border: 4px outset black; }
+.none { border: none; }

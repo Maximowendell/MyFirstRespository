@@ -1,0 +1,27 @@
+. container {
+    display: grid;  
+    grid-template-columns:repeat(38, 50px);
+    grid-template-rows: repeat(38, 50px);
+    gap: 0px 0px;
+    border: 2px solid black;
+    margin: 10px;
+    margin-top: 2px;
+}
+
+.box {
+    background: lightblue;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+. middle {
+    background: white;
+    border: 1px solid black;
+    font font-weight: bold;
+    margin-left: 10px;
+    back-round-color: lightgrey;
+}
